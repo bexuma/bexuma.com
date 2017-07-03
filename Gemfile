@@ -7,6 +7,8 @@ end
 gem 'devise', '~> 4.2'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
+gem 'friendly_id', '~> 5.1.0'
+gem 'babosa'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.4'
 # Use postgresql as the database for Active Record
