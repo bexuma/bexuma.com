@@ -1,39 +1,70 @@
-// Place all the styles related to the Posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-h1, h2, h3, h4, h5, h6, p, ul, li {
-	color: #333;
-}
+#post_content {
+	width: 80%;
+	h1, h2, h3, h4, h5, h6, p, ul, li {
+		color: #333;
+	}
 
-h1 {
-	font-size: 1.9em;
-}
+	a {
+		text-decoration: underline;
+		color: #33acb7;
+	}
 
-h2 {
-	font-size: 1.9em;
-}
+	h1 {
+		font-size: 1.9em;
+	}
 
-h3 {
-	font-size: 1.8rem;
-}
+	h2 {
+		font-size: 1.9em;
+	}
 
-h4 {
-	font-size: 1.2rem;
-}
+	h3 {
+		font-size: 1.8rem;
+	}
 
-h5 {
-	font-size: 1.25rem;
-}
+	h4 {
+		font-size: 1.2rem;
+	}
 
-h6 {
-	font-size: 1rem;
-}
+	h5 {
+		font-size: 1.25rem;
+	}
 
-p, ul, ol {
+	h6 {
+		font-size: 1rem;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1.58;
+		letter-spacing: -.0003em;
+	}
+
+	p, ul, ol {
 		margin: 29px 0 0 0;
 		padding-left: 0;
 	}
 
-ul, ol {
-	padding-left: 25px;
+	ul, ol {
+		padding-left: 25px;
+		li {
+			padding-bottom: 0.25em;
+		}
+	}
+
+	/*padding-bottom: 5px;*/
+	blockquote {
+		border-left: 10px solid #E9E9E9;
+		quotes: "\201C""\201D""\2018""\2019";
+		margin: 29px 0 0 0;
+		font-style: italic;
+	    padding-left: 13px;
+	    padding-bottom: 2px;
+	    p {
+	    	margin-top: 0;
+	    }
+	}
+
+	blockquote strong>em {
+		color: #96999e;
+	}
 }
