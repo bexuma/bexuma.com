@@ -289,13 +289,14 @@ a {
 			padding: 16px;
 		} 
 		#post_content {
+			width: 90%;
 			#comments {
 				input[type="text"], textarea {
-					width: 100%;
+					width: 90%;
 				}
 			}
 		}
-	}	
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
