@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
+h3 {
+	
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
@@ -248,7 +252,7 @@ a {
 		height: 35px;
 	}
 	textarea {
-		min-height: 180px;
+		min-height: 400px;
 	}
 	input[type="submit"] {
 		outline: none;

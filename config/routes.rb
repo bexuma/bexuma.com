@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :ten_thousand_days,  path: '10000dney'
+
+
   devise_for :users
   get 'pages/about'
 

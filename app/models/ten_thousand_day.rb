@@ -1,0 +1,2 @@
+class TenThousandDay < ApplicationRecord
+end

@@ -1,0 +1,8 @@
+<% provide(:title, "10000 Дней") %>
+
+<% @ten_thousand_days.each do |ten_thousand_day| %>
+  <div class="post_wrapper">
+    <h2 class="title"><%= link_to ten_thousand_day.title, ten_thousand_day %></h2>
+    <p class="date"><%= ten_thousand_day.created_at.strftime("%B %d, %Y") %></p>
+  </div>
+<% end %>
