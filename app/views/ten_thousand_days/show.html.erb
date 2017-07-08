@@ -10,13 +10,11 @@
 	</p>
 
 	<% if user_signed_in? %>
-		<%= link_to 'Edit', edit_post_path(@ten_thousand_day) %>
+		<%= link_to 'Edit', edit_ten_thousand_day_path(@ten_thousand_day) %>
 	<% end %>
 
 	<p class="body">
 	  <%= markdown @ten_thousand_day.body %>
 	</p>
 
-	<%= link_to 'Edit', edit_ten_thousand_day_path(@ten_thousand_day) %> |
-	<%= link_to 'Back', ten_thousand_days_path %>
 </div>
