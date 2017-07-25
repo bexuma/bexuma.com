@@ -212,6 +212,9 @@ a {
 			input[type="text"], textarea {
 				width: 85%;
 			}
+			textarea {
+				min-height: 150px;
+			}
 		}
 	}
 	#page_wrapper {
@@ -254,7 +257,7 @@ a {
 	input[type="text"] {
 		height: 35px;
 	}
-	textarea {
+	textarea#post_body {
 		min-height: 400px;
 	}
 	input[type="submit"] {
@@ -348,11 +351,6 @@ a {
 		}
 		#post_content {
 			width: 90%;
-			#comments {
-				input[type="text"], textarea {
-					width: 90%;
-				}
-			}
 		}
 	}
 }
